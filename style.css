@@ -1,0 +1,125 @@
+body {
+  background-color: #2c2b3d;
+}
+header {
+  margin: 71px auto 101px auto;
+  width: 1083px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bolder;
+
+  color: #fff;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 24px;
+  font-style: normal;
+}
+
+header li {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nomelogo {
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 24px;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  width: 1092px;
+  margin: auto;
+}
+main img {
+  width: 401px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bolder;
+}
+main,
+section {
+  margin: auto;
+}
+
+section {
+  margin-top: 0px;
+}
+
+section h1 span {
+  color: #00bfa6;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+section p {
+  color: #c2c2c2;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+section p strong {
+  font-weight: bolder;
+}
+section p span strong {
+  color: #00bfa6;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+#line {
+  border: 0.1px solid #00bfa6;
+  width: 568.001px;
+  margin: auto;
+
+  margin-top: 175px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+}
+footer p {
+  margin: auto;
+  padding-right: 16px;
+}
+
+.end img {
+  padding-left: 8px;
+}
